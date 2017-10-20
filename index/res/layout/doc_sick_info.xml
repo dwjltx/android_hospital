@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看病人资料"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+         android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:text="病人姓名:" />
+
+        <TextView
+            
+            android:textSize="20sp"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="李帅比" />
+
+    </LinearLayout>
+    <LinearLayout
+         android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:text="病人性别:" />
+
+        <TextView
+         
+            android:textSize="20sp"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="男神系列" />
+
+    </LinearLayout>
+    <LinearLayout
+         android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:text="病人年龄:" />
+
+        <TextView
+            
+            android:textSize="20sp"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="小鲜肉" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+          android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:text="病人病况:" />
+
+        <TextView
+           
+            android:textSize="20sp"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="吃嘛嘛香" />
+
+    </LinearLayout>
+     <LinearLayout
+          android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:text="住院状态:" />
+
+        <TextView
+             
+            android:textSize="20sp"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="这年头谁还住院啊" />
+
+    </LinearLayout>
+     <LinearLayout
+         android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:text="住院时间:" />
+
+        <TextView
+            
+            android:textSize="20sp"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="无" />
+
+    </LinearLayout>
+	
+     <LinearLayout
+         android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:text="病人状态:" />
+
+        <TextView
+             
+            android:textSize="20sp"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="健康" />
+
+    </LinearLayout>
+    
+  
+	
+     <LinearLayout
+         android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:text="短期医嘱:" />
+
+        <EditText
+         android:id="@+id/editText1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10" 
+          android:textSize="20sp"
+         android:text="还是吃点精神病药为好" 
+         >
+
+         <requestFocus />
+     </EditText>
+
+    </LinearLayout>
+    
+
+	
+     <LinearLayout
+         android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:text="中期医嘱:" />
+
+       <EditText
+         android:id="@+id/editText2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10" 
+          android:textSize="20sp"
+         android:text="还是吃点精神病药为好" 
+         >
+
+         <requestFocus />
+     </EditText>
+
+    </LinearLayout>
+    
+	
+     <LinearLayout
+         android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:text="长期医嘱:" />
+        
+        <EditText
+         android:id="@+id/editText3"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10" 
+          android:textSize="20sp"
+         android:text="你萌你牛逼" 
+         >
+
+         <requestFocus />
+     </EditText>
+
+    </LinearLayout>
+         <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:text="药单:" />
+
+         <MultiAutoCompleteTextView
+             android:id="@+id/multiAutoCompleteTextView1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:completionThreshold="1"
+             android:ems="10"
+             android:hint="输入该病人药单" />
+
+
+</LinearLayout>

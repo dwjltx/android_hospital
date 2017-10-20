@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/background1"
+    tools:context="com.example.textsql.MainActivity" >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#84C1FF"
+        >
+        
+       
+       <TextView
+        android:id="@+id/Mno1"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="80px"
+        android:text="编号" />
+       
+       <TextView
+        android:id="@+id/Mname1"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="80px"
+        android:text="药名" />
+       
+       <TextView
+        android:id="@+id/Mprice1"
+        android:layout_width="76dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="80px"
+        android:text="价格" />
+       
+       <TextView
+        android:id="@+id/Mplace1"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="80px"
+        android:text="出产地" />
+
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+      
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="228dp" >
+    </ListView>
+    
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="54dp" >
+
+        <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="编号：" />
+
+       
+        <EditText
+        android:id="@+id/Pno2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+       >
+       </EditText>
+       
+         <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名：" />
+
+       
+        <EditText
+        android:id="@+id/Pname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+       >
+
+        </EditText>
+        
+        
+
+     </LinearLayout>
+     
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="40dp" >
+      <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="症状：" />
+
+       
+        <EditText
+        android:id="@+id/Ptype2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+       >
+
+        </EditText>
+        
+         <TextView
+     
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="医嘱号：" />
+
+       
+        <EditText
+        android:id="@+id/Rno2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+       >
+
+        </EditText>
+        </LinearLayout>
+         
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="42dp" >
+ 
+         <Button
+             android:id="@+id/btn"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="返回"
+             />
+         
+         <Button
+             android:id="@+id/tian2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="添加"
+             />
+      
+         </LinearLayout>
+        <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+        > 
+        <TextView
+     
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="长按表中内容可删除" />
+        </LinearLayout>>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.index"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/this1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        >
+        <activity android:name="com.example.index.test"> </activity>
+         <activity android:name="com.example.index.test2"> </activity>
+          <activity android:name="com.example.index.MainActivity2"> </activity>
+        <activity android:name="com.example.index.Doc_ItemActivity"> </activity>
+        <activity android:name="com.example.index.Doc_sick_infoActivity"> </activity>
+        <activity android:name="com.example.index.DoctorActivity"> </activity>
+        <activity android:name="com.example.index.Look_RecordActivity"> </activity>
+        <activity android:name="com.example.index.SgnActivity"> </activity>
+        <activity android:name="com.example.index.Stu_ItemActivity"> </activity>
+        <activity android:name="com.example.index.StudentActivity"> </activity>
+        <activity android:name="com.example.index.Adddoctor"> </activity>
+        <activity android:name="com.example.index.DoctorActivity2"> </activity>
+         <activity android:name="com.example.index.Instruct"> </activity>
+        <activity android:name="ListViewActivity" />
+        <activity
+            android:name="com.example.index.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

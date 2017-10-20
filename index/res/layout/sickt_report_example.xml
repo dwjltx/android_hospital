@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFC0CB"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/daetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日期:" />
+
+        <TextView
+            android:id="@+id/dateime_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000-00-00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/bingyin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="病因:" />
+
+        <TextView
+            android:id="@+id/bingyin_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动脉硬化" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/getway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="调理方式" />
+
+        <TextView
+            android:id="@+id/getway_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="多喝开水" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/doctorname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主治医生:" />
+
+        <TextView
+            android:id="@+id/doctorname_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="王尼玛" />
+
+    </LinearLayout>
+
+</LinearLayout>
