@@ -1,0 +1,2 @@
+# android_hospital
+基于Android智能手机上的高校住院管理系统
